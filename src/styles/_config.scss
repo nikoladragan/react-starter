@@ -1,0 +1,39 @@
+// Spacing
+$s1: 1px;
+$s2: 2px;
+$s3: 4px;
+$s4: 8px;
+$s5: 16px;
+$s6: 24px;
+$s7: 32px;
+$s8: 40px;
+
+// Transitions
+$duration: 0.2s;
+$ease: ease;
+$transition: $duration $ease;
+
+// Colors
+$background: #dfdbe5;
+$primary: #90caf9;
+$white: #fff;
+$black: #424550;
+$orange: orange;
+$green: green;
+$purple: purple;
+$border: #d5d5d6;
+$cardBackground: #ece9ef;
+$red: #f55050;
+$yellow: yellow;
+
+// Other stuff
+$navigationGap: 60px;
+
+// temp mixins
+
+@mixin glass {
+  backdrop-filter: blur(2px);
+  background-color: rgb(255 255 255 / 90%);
+  border-left: 1px solid rgb(255 255 255 / 30%);
+  border-top: 1px solid rgb(255 255 255 / 30%);
+}
